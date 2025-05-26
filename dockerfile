@@ -2,9 +2,7 @@ FROM nginx
 COPY index.html /usr/share/nginx/html
 COPY style.css /usr/share/nginx/html
 
-COPY Image/image1.jpg /usr/share/nginx/html/
-COPY Image/image2.jpg /usr/share/nginx/html/
-COPY Image/image3.jpg /usr/share/nginx/html/
-COPY Image/image4.jpg /usr/share/nginx/html/
+COPY Image/ /usr/share/nginx/html/Images/
+
 
 EXPOSE 80
